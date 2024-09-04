@@ -1,7 +1,8 @@
+"use strict";
 function exibirInformacoes(livro) {
-    return "O livro ".concat(livro.titulo, " foi escrito por ").concat(livro.autor, " e publicado em ").concat(livro.anoPublicacao, ".");
+    return `O livro ${livro.titulo} foi escrito por ${livro.autor} e publicado em ${livro.anoPublicacao}.`;
 }
-var livro1 = {
+let livro1 = {
     titulo: "Harry Potter",
     autor: "JK Rowling",
     anoPublicacao: 1997
